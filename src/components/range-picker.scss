@@ -1,0 +1,73 @@
+.range-picker * {
+  box-sizing: border-box;
+}
+
+.range-picker {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.range-picker-month {
+  width: 25%;
+  background-color: #ffffff;
+  border: 1px solid #a6a6a6;
+}
+
+.range-picker-month-title {
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  background-color: #455399;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.range-picker-days {;
+  color: #b7c1cd;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.range-picker-numbers {
+  user-select: none;
+  display: flex;
+  flex-wrap: wrap;
+  color: #2b2e49;
+  line-height: 48px;
+  text-align: center;
+}
+
+.range-picker-day {
+  width: 14.28%;
+  margin-bottom: 2px;
+}
+
+.range-picker-out {
+  opacity: 0.2;
+}
+
+.range-picker-range {
+  background-color: #00c6ae;
+  color: #ffffff;
+}
+
+.range-picker-newrange {
+  background-color: #455399;
+  color: #ffffff;
+}
+
+.range-picker-range-start {
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.range-picker-range-end {
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
